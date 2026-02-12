@@ -1,0 +1,17 @@
+#	Data oluşturulması | Dataların farklı formatlarda tutulması (.txt, .xlsx, vb.) 
+
+# R içerisine farklı formattaki dosyalar nasıl aktarılır 
+
+# Dosya okutma türleri ve fonksiyonları (read.delim , read_xlsx, read.csv, read.csv2, vb.) | setwd () ve dizin tanımı 
+#library kutuphanesini kurmamız lazım , genelde kurulu olarak gelecektir. gelmedigi zamanlar su adımlar takip edilir
+install.packages("readxl") ##################### 
+
+library(readxl)
+
+proteinler <- read.csv("C:\\Users\\emred\\Downloads\\cow_all_genes.csv")
+dogs <- read_xlsx("C:\\Users\\emred\\Downloads\\dog.xlsx")
+
+##aktarmak istedigimiz dosyaya gelip ozelliklerini girip hangi konumdaysa ve uzantısı neyse sırayla kopyalayıp terminale yapıstırırsak tum veriler aktarılacaktır##
+
+
+#setwd("") komutu bir kısayoldur ama üstteki adımları uygulamak daha sağlıklı olacaktır#
