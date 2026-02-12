@@ -1,0 +1,61 @@
+#--matematiksel işlemler ve R a bir komut yazdırma işlemleri-- hata mesajlarına nasıl çözüm buluruz -- #
+
+
+#Toplama
+9+2
+24+5
+
+
+#Çıkarma
+
+6-2
+425-221
+
+#Bölme
+
+8/2
+16/4
+
+#Çarpma
+
+12*2
+
+#Üst alma 1
+
+10**2
+
+#Üst alma 2
+
+10^3
+
+#Tam
+
+10/3
+
+10 %/% 3
+
+#Kalan bulma
+
+10 %% 3
+
+
+     ################# Tanım Fonksiyonu ################
+     
+     
+     yazdır()
+     
+     
+     
+     ######################### print () ############################
+     
+     print("Kırıkkale Üniversitesi 2025-26 sezonu")
+     
+     
+     
+     ######################## Hata Mesajları #########################
+
+    prin("merhaba")
+    
+    ###Error in prin("merhaba") : "prin" fonksiyonu hatalı , egerki üstteki kodu calıstırırsak bu sonucu alacagız. çözüm olarak ise
+    Consoleda verdigi hata mesajını kopyalayıp internette aratabiliriz. gevşek taşma gibi sitelerde rahatlayabiliriz.
+    veya hata şifreleyerek tercüme e yazdırıp türkçe olarak algılamayı yaptıktan sonra cozumu kendimiz bulabılırız#####################
